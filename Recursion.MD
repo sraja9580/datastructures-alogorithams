@@ -22,10 +22,10 @@
 	}
   
 ## How Recursion Works internally?
-**Normal Method
+** Normal Method
 ![normal-method](/images/02_how-system-executes-normal-method.PNG)
 
-**Recursive Method
+** Recursive Method
 ![recursive-method](/images/03_how-system-executes-recursive-method.PNG)
 	
 ## When to use recursion when to avoid?
@@ -42,6 +42,6 @@
   dynamic programing
   
  ## Recursive vs Iteration
- ![normal-method](/images/02_how-system-executes-normal-method.PNG)
+ ![normal-method](/images/04_recursive-vs-iteration)
 
 
