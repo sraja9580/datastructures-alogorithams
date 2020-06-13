@@ -22,7 +22,8 @@
 	}
   
 ## How Recursion Works internally?
-	![GitHub Logo](/images/02_how-system-executes-normal-method.PNG)
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![GitHub Logo](/images/02_how-system-executes-normal-method.PNG)
 	![picture alt](https://github.com/sraja9580/datastructures-alogorithams/blob/master/images/02_how-system-executes-normal-method.PNG/200x150 "Title is optional").
 ## When to use recursion when to avoid?
   1. when we can break down a problem into subproblem of similar nature
