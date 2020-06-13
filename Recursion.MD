@@ -22,7 +22,7 @@
 	}
   
 ## How Recursion Works internally?
-
+	![picture alt](http://via.placeholder.com/200x150 "Title is optional")
 ## When to use recursion when to avoid?
   1. when we can break down a problem into subproblem of similar nature
 	2. it always comes with little time and memory overhead, if it not issue you can proceed with recursion
