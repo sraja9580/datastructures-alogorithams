@@ -42,6 +42,6 @@
   dynamic programing
   
  ## Recursive vs Iteration
- ![normal-method](/images/04_recursive-vs-iteration)
+ ![recVsItr](/images/04_recursive-vs-iteration.PNG)
 
 
