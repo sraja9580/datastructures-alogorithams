@@ -42,6 +42,28 @@
   dynamic programing
   
  ## Recursive vs Iteration
- ![recVsItr](/images/04_recursive-vs-iteration.PNG)
+ ![recVsItr](/images/04_recursive-vs-iteration.PNG) 
+ 
+ ## Example Code Snipt
+ ### Fibonacci
+	The Fibonacci Sequence is the series of numbers:
+	0(f1), 1(f2), 1(f3), 2(f4), 3, 5, 8, 13, 21, 34, ...
+	The next number is found by adding up the two numbers before it:
+	the 2 is found by adding the two numbers before it (1+1),
+	the 3 is found by adding the two numbers before it (1+2),
+	
+	/* n==0 and n<3 are base conditions 
+	 * n>2 is recursive condition
+	 */
+	static int fibonacciRecursive(int n){	
+		if(n==0) {
+			return 0;
+		}else if(n<3) {
+			return n-1;
+		}else {
+			return fibonacciRecursive(n-1)+fibonacciRecursive(n-2);
+		}		
+	}
+	 
 
 
