@@ -9,7 +9,7 @@
 	 make our code easy to read and write
 	 Dealing with tree and grapes are much simpler	
    
-##Structure of recursive method
+## Structure of recursive method
 
   	recursive case -> when the function recur
 	base case -> when the function stop
@@ -21,14 +21,14 @@
 			simpleRecursion(modified param)
 	}
   
-##How Recursion Works internally?
+## How Recursion Works internally?
 
-##When to use recursion when to avoid?
+## When to use recursion when to avoid?
   1. when we can break down a problem into subproblem of similar nature
 	2. it always comes with little time and memory overhead, if it not issue you can proceed with recursion
 	example: let's say we are working on a airbag launch system there time is really important ,so we have to avoid recursion
   
-##Practical uses of recursion
+## Practical uses of recursion
   Stack
   Tree
   Quick sort
