@@ -6,8 +6,8 @@
   
 ## Why Recursion?
    	if we can break our problem into similar sub problem we can use recursion
-	 make our code easy to read and write
-	 Dealing with tree and grapes are much simpler	
+	make our code easy to read and write
+	Dealing with tree and grapes are much simpler	
    
 ## Structure of recursive method
 
@@ -22,12 +22,15 @@
 	}
   
 ## How Recursion Works internally?
+**Normal Method
 ![normal-method](/images/02_how-system-executes-normal-method.PNG)
+
+**Recursive Method
 ![recursive-method](/images/03_how-system-executes-recursive-method.PNG)
 	
 ## When to use recursion when to avoid?
   1. when we can break down a problem into subproblem of similar nature
-	2. it always comes with little time and memory overhead, if it not issue you can proceed with recursion
+  2. it always comes with little time and memory overhead, if it not issue you can proceed with recursion
 	example: let's say we are working on a airbag launch system there time is really important ,so we have to avoid recursion
   
 ## Practical uses of recursion
@@ -37,6 +40,8 @@
   Merge sort 
   divide and conquer
   dynamic programing
-
+  
+ ## Recursive vs Iteration
+ ![normal-method](/images/02_how-system-executes-normal-method.PNG)
 
 
