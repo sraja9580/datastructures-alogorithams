@@ -26,5 +26,6 @@
   
   ### Calculate Time Complexity of Itarative Algorithm (Finding Largest Element in array)  
   ![DS](/images/07_calculating-complexityof-iterative-algoritham.PNG) <br>
-   ### Calculate Time Complexity Recursive Algorithm(Finding Largest Element in array)  
-  ![DS](/images/07_calculating-complexityof-iterative-algoritham.PNG) <br>
+   ### Calculate Time Complexity Recursive Algorithm(Binary Search Finding largest Number in sorted Array)  
+  ![DS](/images/8_time_complexity_recursive_array_binary-search.PNG) <br>
+  ![DS](/images/8_1_time_complexity_recursive_array_binary-search.PNG) <br>
