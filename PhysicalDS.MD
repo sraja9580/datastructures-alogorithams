@@ -17,5 +17,5 @@
 **Two Dimentional Array** <br>
  Arr[row][col]<br>
  Arr[2][5] = {{10,3,20,7,99},{63,15,33,55,44}}<br>
- For 2D array ar[r][c] (2,5) compiler allocates r*c(2*5=10) continues celles in RAM, 2D array is stored in flat 1D array in memory as shown in below image<br>
+ For 2D array ar[r][c] (2,5) compiler allocates r×c(2×5=10) continues celles in RAM, 2D array is stored in flat 1D array in memory as shown in below image<br>
 ![DS](/images/9_4_two_dimentional_array_in_RAM.PNG) <br>
