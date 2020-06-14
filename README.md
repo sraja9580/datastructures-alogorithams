@@ -1,8 +1,9 @@
 # datastructures-alogorithams
+![DS](/images/01_DS-Algorithams.PNG)
   **Primitive**  
-        Int,flot,
+        Int,flot <br>
   **Not Primitive** 
-          physical ->Arrays and List
+          physical ->Arrays and List<br>
 		      Logical  -> Depends on physical data structure for implementation (Stack,Queue,Tree)
 ## Algorithm Runtime analysis
   measurement of performance of given algorithm
