@@ -23,3 +23,8 @@
   ### Examples of Algorithm run time complexities
   in the below graph you dont see blue line O(1), beacause it is always 1.Adding element in the front of linked list alwasy takes O(1)
   ![DS](/images/06_differant-time-complexities.PNG) <br>
+  
+  ### Calculate Time Complexity of Itarative Algorithm (Finding Largest Element in array)  
+  ![DS](/images/07_calculating-complexityof-iterative-algoritham.PNG) <br>
+   ### Calculate Time Complexity Recursive Algorithm(Finding Largest Element in array)  
+  ![DS](/images/07_calculating-complexityof-iterative-algoritham.PNG) <br>
