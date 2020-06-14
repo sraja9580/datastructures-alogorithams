@@ -1,8 +1,8 @@
 # datastructures-alogorithams
-  **Primitive  
+  ** Primitive  
   
         Int,flot,
-  **Not Primitive - 
+  ** Not Primitive - 
   
           physical ->Arrays and List
 		      Logical  -> Depends on physical data structure for implementation (Stack,Queue,Tree)
