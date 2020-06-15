@@ -33,7 +33,7 @@
 * Instantiation : allocates **n** no of cells and store fist index in referrence variavle variable (int[] studentIdArray=new int[n])
 * Initialization :assign values to cells -> by default int array is filled with 0 <br>
 ![DS](/images/9_5_declare_and_initialize_array.PNG) <br> <br>
-** Time complextiy of Declare , instantiation, initialization**<br>
+**Time complextiy of Declare , instantiation, initialization** <br>
  if we declare and intialize array in single step , time complexity is just **O(1)** , that is because instead of initializing with defuat value compiler is initializing value privided by us.<br>
  if we dont do in single step then during instantiation compiler initializes with 0 and during initialization it itrates and assign values to each cell wich is **O(n)** complexity<br>
 ![DS](/images/9_6_time_complexity_declare_and_initialize_array.PNG) <br>
