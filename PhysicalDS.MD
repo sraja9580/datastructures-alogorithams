@@ -21,7 +21,7 @@
 ![DS](/images/9_4_two_dimentional_array_in_RAM.PNG) <br>
 
 ### Common Operations on Array
- * Declare , instantiation, initialization(#declare_instantiation_initialization)
+ * [Declare , instantiation, initialization](#declare_instantiation_initialization)
  * Insert value
  * Travese
  * Accessing a cell
