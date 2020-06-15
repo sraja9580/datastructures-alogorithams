@@ -21,11 +21,11 @@
 ![DS](/images/9_4_two_dimentional_array_in_RAM.PNG) <br>
 
 ### Common Operations on Array
- * [Declare , instantiation, initialization](#declare_instantiation_initialization)
+ * [Declare , instantiation, initialization](#declare-instantiation-initialization)
  * Insert value
  * Travese
  * Accessing a cell
- * [Searching a value](#searching_a_value)
+ * [Searching a value](#searching-a-value)
  * Deleting a value
 #### Time and Space complexity of 1D Array
 ![DS](/images/9_11_time_and_space_complexity_1D_array.PNG) <br>
