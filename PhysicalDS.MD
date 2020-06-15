@@ -19,3 +19,18 @@
  Arr[2][5] = {{10,3,20,7,99},{63,15,33,55,44}}<br>
  For 2D array ar[r][c] (2,5) compiler allocates r×c(2×5=10) continues celles in RAM, 2D array is stored in flat 1D array in memory as shown in below image<br>
 ![DS](/images/9_4_two_dimentional_array_in_RAM.PNG) <br>
+
+### Common Operations on Array
+ * Declare , instantiation, initialization
+ * Insert value
+ * Travese
+ * Accessing a cell
+ * Searching a value
+ * Deleting a value
+ 
+#### Declare , instantiation, initialization 
+* Declare : compiler creates refference variable (int[] studentIdArray)
+* Instantiation : allocates **n** no of cells and store fist index in referrence variavle variable (int[] studentIdArray=new int[n])
+* Initialization :assign values to cells -> by default int array is filled with 0
+![DS](/images/9_5_declare_and_initialize_array.PNG) <br>
+![DS](/images/9_6_time_complexity_declare_and_initialize_array.PNG) <br>
