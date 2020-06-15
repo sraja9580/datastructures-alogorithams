@@ -46,3 +46,11 @@
 ![DS](/images/9_9_time_complexity_accessing_cell_array.PNG) <br>
 #### Searching a value 
 ![DS](/images/9_10_time_complexity_search_array.PNG) <br>
+#### 2D Array Declare instantiation initialization 
+![DS](/images/9_12_time_complexity_declare_and_initialize_2D_array.PNG) <br>
+#### 2D Array Insert value
+![DS](/images/9_13_time_complexity_insertvalue_2D_array.PNG) <br>
+#### 2D Array Travese
+![DS](/images/9_14_time_complexity_traverse_2D_array.PNG) <br>
+#### Time and Space complexity of 2D Array
+![DS](/images/9_15_time_and_space_complexity_2D_array.PNG) <br>
