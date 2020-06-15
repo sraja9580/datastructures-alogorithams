@@ -27,7 +27,8 @@
  * Accessing a cell
  * Searching a value
  * Deleting a value
- 
+#### Time and Space complexity of 1D Array
+![DS](/images/9_11_time_and_space_complexity_1D_array.PNG) <br>
 #### Declare , instantiation, initialization 
 * Declare : compiler creates refference variable (int[] studentIdArray)
 * Instantiation : allocates **n** no of cells and store fist index in referrence variavle variable (int[] studentIdArray=new int[n])
