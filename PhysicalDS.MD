@@ -36,4 +36,12 @@
 **Time complextiy of Declare , instantiation, initialization** <br>
  if we declare and intialize array in single step , time complexity is just **O(1)** , that is because instead of initializing with defuat value compiler is initializing value privided by us.<br>
  if we dont do in single step then during instantiation compiler initializes with 0 and during initialization it itrates and assign values to each cell wich is **O(n)** complexity<br>
-![DS](/images/9_6_time_complexity_declare_and_initialize_array.PNG) <br>
+![DS](/images/9_6_time_complexity_declare_and_initialize_array.PNG) <br><br>
+#### Insert value
+![DS](/images/9_7_time_complexity_insertvalue_array.PNG) <br>
+#### Travese
+![DS](/images/9_8_time_complexity_traverse_array.PNG) <br>
+#### Accessing a cell
+![DS](/images/9_9_time_complexity_accessing_cell_array.PNG) <br>
+#### Searching a value 
+![DS](/images/9_10_time_complexity_search_array.PNG) <br>
