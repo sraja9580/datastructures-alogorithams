@@ -21,7 +21,7 @@
 ![DS](/images/9_4_two_dimentional_array_in_RAM.PNG) <br>
 
 ### Common Operations on Array
- * Declare , instantiation, initialization
+ * Declare , instantiation, initialization(#declare_instantiation_initialization)
  * Insert value
  * Travese
  * Accessing a cell
@@ -29,7 +29,7 @@
  * Deleting a value
 #### Time and Space complexity of 1D Array
 ![DS](/images/9_11_time_and_space_complexity_1D_array.PNG) <br>
-#### Declare , instantiation, initialization 
+#### Declare instantiation initialization 
 * Declare : compiler creates refference variable (int[] studentIdArray)
 * Instantiation : allocates **n** no of cells and store fist index in referrence variavle variable (int[] studentIdArray=new int[n])
 * Initialization :assign values to cells -> by default int array is filled with 0 <br>
