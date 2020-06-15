@@ -25,7 +25,7 @@
  * Insert value
  * Travese
  * Accessing a cell
- * Searching a value
+ * [Searching a value](#searching_a_value)
  * Deleting a value
 #### Time and Space complexity of 1D Array
 ![DS](/images/9_11_time_and_space_complexity_1D_array.PNG) <br>
