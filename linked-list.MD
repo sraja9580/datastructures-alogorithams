@@ -6,11 +6,13 @@ Train always starts with engine and ends with guard room,same ways Liked list al
 **Node** Contains Data and Reference to next Node  <br>
 **Head** Reference to first Node in the list. <br>
 **Tail** Reference to last node of the list. <br> <br>
+## How Linked List Stored in RAM
+![DS](/images/linked-list/1_1_linked-list_RAM.PNG) <br> <br>
 ## Types of Linked List
 * [single linked list](#single-linked-ist)
 * [circular linked list](#circular-linked-list)
 * [double linked list](#double-linked-list)
-* [circular double liked list](#circular-double-liked-list)
+* [circular double liked list](#circular-double-liked-list)<br>
 **single linked list**<br>
   In a singly linked list each node in the list stores the data of the node and a reference to the next node in the list,it doesn't store any reference to previous node<br>
 ![DS](/images/linked-list/2_0_singly_linked-list.PNG) <br> <br>
