@@ -64,10 +64,27 @@ Train always starts with engine and ends with guard room,same ways Liked list al
 ### Circular single linked list creation 
 ![DS](/images/linked-list/2_1_1_circuler_singly_linked-list_create.PNG) <br> <br>
 ### Circular single linked list insert 
-**sdgalsgsnaldkhnhasldnhhsanhksanhknsa
-sadhhsadhsadhsadhsahdsadh
-sdahsadhsadhsadhas
-asdhsadhsadh**
+**insertInCLL(head,nodeValue,position)<br>
+	create new blank node(node)--------------------------------O(1)<br>
+	node.value=nodeValue---------------------------------------O(1)<br>	
+	if(position==0)--------------------------------------------O(1)<br>
+		node.next=head-----------------------------------------O(1)<br>
+		head=node----------------------------------------------O(1)<br>
+		//pointing last node to new first node<br>
+		tail.next=node-----------------------------------------O(1)<br>
+	else if(pointing==last)<br>
+		//pointing new last node to first node<br>
+		node.next=head-----------------------------------------O(1)<br>
+		//pointing previous last node to current last node<br>
+		tail.next=node-----------------------------------------O(1)<br>
+		tail=node----------------------------------------------O(1)<br>
+	else (any other position)----------------------------------O(1)<br>
+		//getting previous node of the position<br>
+		loop to position-1-------------------------------------O(n)<br>
+			tempNode=position-1-Node---------------------------O(1)<br>
+		node.next=tempNode.next--------------------------------O(1)<br>
+		tempNode.next=node-------------------------------------O(1)<br>
+		**
 ![DS](/images/linked-list/2_1_2_circuler_singly_linked-list_insert.PNG) <br> <br>
 ### Circular single linked list traverse 
 ![DS](/images/linked-list/2_1_3_circuler_singly_linked-list_traverse.PNG) <br> <br>
