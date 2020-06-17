@@ -72,4 +72,6 @@ Train always starts with engine and ends with guard room,same ways Liked list al
 ### Circular single linked list delete node 
 ![DS](/images/linked-list/2_1_5_circuler_singly_linked-list_delete_node.PNG) <br> <br>
 ### Circular single linked list delete entire list 
+tail.next points to last nodes address cell<br>
+so tail.next=NULL removes last elemnts link to first element <br>
 ![DS](/images/linked-list/2_1_6_circuler_singly_linked-list_delete-entire-list.PNG) <br> <br>
