@@ -64,10 +64,10 @@ Train always starts with engine and ends with guard room,same ways Liked list al
 ### Circular single linked list creation 
 ![DS](/images/linked-list/2_1_1_circuler_singly_linked-list_create.PNG) <br> <br>
 ### Circular single linked list insert 
-**Insert in postion 0**
-![DS](/images/linked-list/2_1_2_circuler_singly_linked-list_insert.PNG) <br> <br>
-**Insert in last 0**
-![DS](/images/linked-list/2_1_2_circuler_singly_linked-list_insert.PNG) <br> <br>
+**Insert in postion 0**<br>
+![DS](/images/linked-list/2_0_2_1_singly_linked-list_node-insert-first_complexity.PNG) <br> <br>
+**Insert in last 0**<br>
+![DS](/images/linked-list/2_0_2_2_singly_linked-list_node-insert-last_complexity.PNG) <br> <br>
 ```
 insertInCLL(head,nodeValue,position)
 	create new blank node(node)------------------------------------O(1)
@@ -91,7 +91,7 @@ insertInCLL(head,nodeValue,position)
 		node.next=tempNode.next--------------------------------O(1)
 		tempNode.next=node-------------------------------------O(1)
 ```
-**Time Complexity  -O(n)**
+**Time Complexity  -O(n)** <br>
 **Space Complexity -O(1)** <br> <br>
 ### Circular single linked list traverse 
 ![DS](/images/linked-list/2_1_3_circuler_singly_linked-list_traverse.PNG) <br> <br>
