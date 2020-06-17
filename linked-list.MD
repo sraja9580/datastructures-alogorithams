@@ -9,31 +9,31 @@ Train always starts with engine and ends with guard room,same ways Liked list al
 ## How Linked List Stored in RAM
 ![DS](/images/linked-list/1_1_linked-list_RAM.PNG) <br> <br>
 ## Types of Linked List
-* [single linked list](#single-linked-ist)
-* [circular linked list](#circular-linked-list)
-* [double linked list](#double-linked-list)
-* [circular double liked list](#circular-double-liked-list)<br>
-**single linked list**<br>
+* [Single Linked List](#single-linked-list)
+* [Circular Single Linked List](#circular-linked-list)
+* [Double Linked List](#double-linked-list)
+* [Circular Double Liked List](#circular-double-liked-list)<br><br>
+**Single Linked List**<br>
   In a singly linked list each node in the list stores the data of the node and a reference to the next node in the list,it doesn't store any reference to previous node<br>
 ![DS](/images/linked-list/2_0_singly_linked-list.PNG) <br> <br>
-**circular linked list**<br>
+**Circular Single Linked List**<br>
   only change is last node in the list holds reference to first node(instead of null)<br>
 ![DS](/images/linked-list/2_1_circuler_singly_linked-list.PNG) <br> <br>
-**double linked list**<br>
+**Double Linked List**<br>
   In a double linked list each node consists of two reference, reference to previous node and reference to next node.<br>
 ![DS](/images/linked-list/3_0_double_linked-list.PNG) <br> <br>
-**circular double liked list**<br>
+**Circular Double Liked List**<br>
   only change is last node in the list holds reference to first node(instead of null)<br>
 ![DS](/images/linked-list/3_1_circular_double_linked-list.PNG) <br> <br>
 
-## single linked 
-* [single linked list time and space complexity table](#single-linked-list-time-and-space-complexity-table)
-* [single linked list creation](#single-linked-list-creation)
-* [single linked list insert](#single-linked-list-insert)
-* [single linked list traverse](#single-linked-list-traverse)
-* [single linked list search](#single-linked-list-search)
-* [single linked list delete node](#single-linked-list-delete-node)
-* [single linked list delete entire list](#single-linked-list-delete-entire-list)
+## Single Linked List
+* [Single Linked List Time and Space Complexity Table](#single-linked-list-time-and-space-complexity-table)
+* [Single Linked List Creation](#single-linked-list-creation)
+* [Single Linked list Insert](#single-linked-list-insert)
+* [Single Linked List Traverse](#single-linked-list-traverse)
+* [Single Linked List Search](#single-linked-list-search)
+* [Single Linked List Delete Node](#single-linked-list-delete-node)
+* [Single Linked List Delete Entire List](#single-linked-list-delete-entire-list)
 	
 ### single linked list time and space complexity table 
 ![DS](/images/linked-list/2_0_7_singly_linked-list_complexity_table.PNG) <br> <br>
