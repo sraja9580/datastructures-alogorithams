@@ -119,9 +119,9 @@ so tail.next=NULL removes last elemnts link to first element <br>
 * [Double Linked List Delete Node](#double-linked-list-delete-node)
 * [Double Linked List Delete Entire List](#double-linked-list-delete-entire-list)
 	
-### double Linked List Time and Space Complexity Table 
+### Double Linked List Time and Space Complexity Table 
 ![DS](/images/linked-list/3_0_6_DLL_time-space-complexity_table.PNG) <br> <br>
-### double Linked List Creation 
+### Double Linked List Creation 
 ![DS](/images/linked-list/3_0_1_double_linked-list_creation.PNG) <br> <br>
 ```
 createDLL(nodeValue)
@@ -135,11 +135,11 @@ createDLL(nodeValue)
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### Double Linked List Insert 
 **Insert in postion 0**<br>
-![DS](/images/linked-list/2_0_2_1_singly_linked-list_node-insert-first_complexity.PNG) <br> <br>
+![DS](/images/linked-list/3_0_4_1_DLL_insert-node-first.PNG) <br> <br>
 **Insert in last position**<br>
-![DS](/images/linked-list/2_0_2_2_singly_linked-list_node-insert-last_complexity.PNG) <br> <br>
+![DS](/images/linked-list/3_0_4_2_DLL_insert-node-last.PNG) <br> <br>
 **Insert in any other position**<br>
-![DS](/images/linked-list/2_0_2_2_singly_linked-list_node-insert-last_complexity.PNG) <br> <br>
+![DS](/images/linked-list/3_0_4_3_DLL_insert-node-n-position.PNG) <br> <br>
 ```
 insertNodeInDLL(head,nodeValue,position)
 	create new blank node(node)---------------------O(1)
