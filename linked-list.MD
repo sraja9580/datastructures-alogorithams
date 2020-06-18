@@ -110,7 +110,7 @@ tail.next points to last nodes address cell<br>
 so tail.next=NULL removes last elemnts link to first element <br>
 ![DS](/images/linked-list/2_1_6_circuler_singly_linked-list_delete-entire-list.PNG) <br> <br>
 
-## Single Linked List
+## Double Linked List
 * [Double Linked List Time and Space Complexity Table](#double-linked-list-time-and-space-complexity-table)
 * [Double Linked List Creation](#double-linked-list-creation)
 * [Double Linked list Insert](#double-linked-list-insert)
@@ -137,7 +137,10 @@ createDLL(nodeValue)
 ### double Linked List Insert 
 ![DS](/images/linked-list/2_0_2_double_linked-list_node-insertion_complexity.PNG) <br> <br>
 ### double Linked List Traverse 
-![DS](/images/linked-list/2_0_3_double_linked-list_traverse_complexity.PNG) <br> <br>
+**Traverse Forward** <br>
+![DS](/images/linked-list/3_0_2_1_DLL_traverse_forward.PNG) <br> <br>
+**Traverse Backword** <br>
+![DS](/images/linked-list/3_0_2_2_DLL_traverse_reverse.PNG) <br> <br>
 ### double Linked List Search 
 ![DS](/images/linked-list/2_0_4_double_linked-list_search_complexity.PNG) <br> <br>
 ### double Linked List Delete Node 
