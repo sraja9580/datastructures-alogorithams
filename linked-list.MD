@@ -132,31 +132,37 @@ createDLL(nodeValue)
 	node.next=null-----------------O(1)
 	node.prev-null-----------------O(1)
 ```
-**Time Complexity  -O(1)** <br>
-**Space Complexity -O(1)** <br> <br>
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### Double Linked List Insert 
+**Insert in postion 0**<br>
+![DS](/images/linked-list/2_0_2_1_singly_linked-list_node-insert-first_complexity.PNG) <br> <br>
+**Insert in last position**<br>
+![DS](/images/linked-list/2_0_2_2_singly_linked-list_node-insert-last_complexity.PNG) <br> <br>
+**Insert in any other position**<br>
+![DS](/images/linked-list/2_0_2_2_singly_linked-list_node-insert-last_complexity.PNG) <br> <br>
 ```
 insertNodeInDLL(head,nodeValue,position)
-	create new blank node(node)-----------------O(1)
-	node.value=nodeValue------------------------O(1)
-	if(position==0)-----------------------------O(1)
+	create new blank node(node)---------------------O(1)
+	node.value=nodeValue----------------------------O(1)
+	if(position==0)---------------------------------O(1)
 		node.next=head--------------------------O(1)
 		node.prev=null--------------------------O(1)
 		node.next.prev(head.prev)=node----------O(1)
 		head=node-------------------------------O(1)
-	else if(pointing==last)---------------------O(1)
+	else if(pointing==last)-------------------------O(1)
 		node.next=null--------------------------O(1)
 		node.prev=tail--------------------------O(1)
 		node.prev.next(tail.next)=node----------O(1)
 		tail=node-------------------------------O(1)
-	else (any other position)-------------------O(1)
+	else (any other position)-----------------------O(1)
 		loop:tempNode=node(position-1)----------O(n)
 		node.prev=tempNode----------------------O(1)
 		node.next=tempNode.next-----------------O(1)
 		tempNode.next=node----------------------O(1)
 		node.next.prev=node---------------------O(1)
 ```
-![DS](/images/linked-list/2_0_2_double_linked-list_node-insertion_complexity.PNG) <br> <br>
+**Time Complexity  -O(n)  Space Complexity -O(1)** <br> <br>
+
 ### Double Linked List Traverse 
 **Traverse Forward** <br>
 ![DS](/images/linked-list/3_0_2_1_DLL_traverse_forward.PNG) <br> <br>
