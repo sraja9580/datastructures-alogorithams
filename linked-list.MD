@@ -120,7 +120,7 @@ so tail.next=NULL removes last elemnts link to first element <br>
 * [Double Linked List Delete Entire List](#double-linked-list-delete-entire-list)
 	
 ### double Linked List Time and Space Complexity Table 
-![DS](/images/linked-list/2_0_7_double_linked-list_complexity_table.PNG) <br> <br>
+![DS](/images/linked-list/3_0_6_DLL_time-space-complexity_table.PNG) <br> <br>
 ### double Linked List Creation 
 ![DS](/images/linked-list/3_0_1_double_linked-list_creation.PNG) <br> <br>
 ```
@@ -134,17 +134,17 @@ createDLL(nodeValue)
 ```
 **Time Complexity  -O(1)** <br>
 **Space Complexity -O(1)** <br> <br>
-### double Linked List Insert 
+### Double Linked List Insert 
 ![DS](/images/linked-list/2_0_2_double_linked-list_node-insertion_complexity.PNG) <br> <br>
-### double Linked List Traverse 
+### Double Linked List Traverse 
 **Traverse Forward** <br>
 ![DS](/images/linked-list/3_0_2_1_DLL_traverse_forward.PNG) <br> <br>
 **Traverse Backword** <br>
 ![DS](/images/linked-list/3_0_2_2_DLL_traverse_reverse.PNG) <br> <br>
-### double Linked List Search 
-![DS](/images/linked-list/2_0_4_double_linked-list_search_complexity.PNG) <br> <br>
-### double Linked List Delete Node 
+### Double Linked List Search 
+![DS](/images/linked-list/3_0_3_DLL_search.PNG) <br> <br>
+### Double Linked List Delete Node 
 ![DS](/images/linked-list/2_0_5_double_linked-list_delete-node_complexity.PNG) <br> <br>
-### double Linked List Delete Entire List 
-![DS](/images/linked-list/2_0_6_double_linked-list_delete-entire_list_complexity.PNG) <br> <br>
+### Double Linked List Delete Entire List 
+![DS](/images/linked-list/3_0_5_DLL_delete-entire-list.PNG) <br> <br>
 		
