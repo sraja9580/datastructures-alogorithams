@@ -135,6 +135,27 @@ createDLL(nodeValue)
 **Time Complexity  -O(1)** <br>
 **Space Complexity -O(1)** <br> <br>
 ### Double Linked List Insert 
+```
+insertNodeInDLL(head,nodeValue,position)
+	create new blank node(node)-----------------O(1)
+	node.value=nodeValue------------------------O(1)
+	if(position==0)-----------------------------O(1)
+		node.next=head--------------------------O(1)
+		node.prev=null--------------------------O(1)
+		node.next.prev(head.prev)=node----------O(1)
+		head=node-------------------------------O(1)
+	else if(pointing==last)---------------------O(1)
+		node.next=null--------------------------O(1)
+		node.prev=tail--------------------------O(1)
+		node.prev.next(tail.next)=node----------O(1)
+		tail=node-------------------------------O(1)
+	else (any other position)-------------------O(1)
+		loop:tempNode=node(position-1)----------O(n)
+		node.prev=tempNode----------------------O(1)
+		node.next=tempNode.next-----------------O(1)
+		tempNode.next=node----------------------O(1)
+		node.next.prev=node---------------------O(1)
+```
 ![DS](/images/linked-list/2_0_2_double_linked-list_node-insertion_complexity.PNG) <br> <br>
 ### Double Linked List Traverse 
 **Traverse Forward** <br>
