@@ -109,3 +109,39 @@ insertInCLL(head,nodeValue,position)
 tail.next points to last nodes address cell<br>
 so tail.next=NULL removes last elemnts link to first element <br>
 ![DS](/images/linked-list/2_1_6_circuler_singly_linked-list_delete-entire-list.PNG) <br> <br>
+
+## Single Linked List
+* [Double Linked List Time and Space Complexity Table](#double-linked-list-time-and-space-complexity-table)
+* [Double Linked List Creation](#double-linked-list-creation)
+* [Double Linked list Insert](#double-linked-list-insert)
+* [Double Linked List Traverse](#double-linked-list-traverse)
+* [Double Linked List Search](#double-linked-list-search)
+* [Double Linked List Delete Node](#double-linked-list-delete-node)
+* [Double Linked List Delete Entire List](#double-linked-list-delete-entire-list)
+	
+### double Linked List Time and Space Complexity Table 
+![DS](/images/linked-list/2_0_7_double_linked-list_complexity_table.PNG) <br> <br>
+### double Linked List Creation 
+![DS](/images/linked-list/3_0_1_double_linked-list_creation.PNG) <br> <br>
+```
+createDLL(nodeValue)
+	create new blank node(node)----O(1)
+	node.value=nodeValue-----------O(1)
+	head=node----------------------O(1)
+	tail=node----------------------O(1)
+	node.next=null-----------------O(1)
+	node.prev-null-----------------O(1)
+```
+**Time Complexity  -O(1)** <br>
+**Space Complexity -O(1)** <br> <br>
+### double Linked List Insert 
+![DS](/images/linked-list/2_0_2_double_linked-list_node-insertion_complexity.PNG) <br> <br>
+### double Linked List Traverse 
+![DS](/images/linked-list/2_0_3_double_linked-list_traverse_complexity.PNG) <br> <br>
+### double Linked List Search 
+![DS](/images/linked-list/2_0_4_double_linked-list_search_complexity.PNG) <br> <br>
+### double Linked List Delete Node 
+![DS](/images/linked-list/2_0_5_double_linked-list_delete-node_complexity.PNG) <br> <br>
+### double Linked List Delete Entire List 
+![DS](/images/linked-list/2_0_6_double_linked-list_delete-entire_list_complexity.PNG) <br> <br>
+		
