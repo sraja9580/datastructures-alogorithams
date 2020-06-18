@@ -172,7 +172,28 @@ insertNodeInDLL(head,nodeValue,position)
 ### Double Linked List Search 
 ![DS](/images/linked-list/3_0_3_DLL_search.PNG) <br> <br>
 ### Double Linked List Delete Node 
-![DS](/images/linked-list/2_0_5_double_linked-list_delete-node_complexity.PNG) <br> <br>
+**Insert in postion 0**<br>
+![DS](/images/linked-list/3_0_4_1_DLL_insert-node-first.PNG) <br> <br>
+**Insert in last position**<br>
+![DS](/images/linked-list/3_0_4_2_DLL_insert-node-last.PNG) <br> <br>
+**Insert in any other position**<br>
+![DS](/images/linked-list/3_0_4_3_DLL_insert-node-n-position.PNG) <br>
+```
+deleteNodeInDLL(head,position)	
+	if(position==0)-----------------------------O(1)
+		//if size==1 head=tail=null		
+		head=head.next--------------------------O(1)
+		head.prev=null--------------------------O(1)		
+	else if(pointing==last)---------------------O(1)
+		//if size==1 head=tail=null		
+		tail=tail.prev--------------------------O(1)
+		tail.next=null--------------------------O(1)
+	else (any other position)-------------------O(1)
+		loop:tempNode=node(position-1)----------O(n)
+		tempNode.next=tempNode.next.next--------O(1)
+		tempNode.next.prev=tempNode-------------O(1)	
+```
+**Time Complexity  -O(n)  Space Complexity -O(1)** <br> <br>
 ### Double Linked List Delete Entire List 
 ![DS](/images/linked-list/3_0_5_DLL_delete-entire-list.PNG) <br> <br>
 		
