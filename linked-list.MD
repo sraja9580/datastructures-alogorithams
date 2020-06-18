@@ -172,12 +172,12 @@ insertNodeInDLL(head,nodeValue,position)
 ### Double Linked List Search 
 ![DS](/images/linked-list/3_0_3_DLL_search.PNG) <br> <br>
 ### Double Linked List Delete Node 
-**Insert in postion 0**<br>
-![DS](/images/linked-list/3_0_4_1_DLL_insert-node-first.PNG) <br> <br>
-**Insert in last position**<br>
-![DS](/images/linked-list/3_0_4_2_DLL_insert-node-last.PNG) <br> <br>
-**Insert in any other position**<br>
-![DS](/images/linked-list/3_0_4_3_DLL_insert-node-n-position.PNG) <br>
+**delete first node**<br>
+![DS](/images/linked-list/3_0_7_1_DLL_delete-node-first.PNG) <br> <br>
+**delete last node**<br>
+![DS](/images/linked-list/3_0_7_2_DLL_delete-node-last.PNG) <br> <br>
+**delete any other node**<br>
+![DS](/images/linked-list/3_0_7_3_DLL_delete-node-n-position.PNG) <br>
 ```
 deleteNodeInDLL(head,position)	
 	if(position==0)-----------------------------O(1)
