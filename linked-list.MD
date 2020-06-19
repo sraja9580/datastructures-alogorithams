@@ -252,9 +252,9 @@ insertNodeInDLL(head,nodeValue,position)
 
 ### Circular Double Linked List Traverse 
 **Traverse Forward** <br>
-![DS](/images/linked-list/3_0_2_1_DLL_traverse_forward.PNG) <br> <br>
+![DS](/images/linked-list/3_1_3_1_CDLL_traverse_forward.PNG) <br> <br>
 **Traverse Backword** <br>
-![DS](/images/linked-list/3_0_2_2_DLL_traverse_reverse.PNG) <br> <br>
+![DS](/images/linked-list/3_1_3_2_CDLL_traverse_reverse.PNG) <br> <br>
 ### Circular Double Linked List Search 
 ![DS](/images/linked-list/3_0_3_DLL_search.PNG) <br> <br>
 ### Circular Double Linked List Delete Node 
