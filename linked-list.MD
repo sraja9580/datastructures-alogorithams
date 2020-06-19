@@ -207,7 +207,7 @@ deleteNodeInDLL(head,position)
 * [Circular Double Linked List Delete Entire List](#circular-double-linked-list-delete-entire-list)
 	
 ### Circular Double Linked List Time and Space Complexity Table 
-![DS](/images/linked-list/3_0_6_DLL_time-space-complexity_table.PNG) <br> <br>
+![DS](/images/linked-list/3_1_7_CDLL_time-space-complexity_table.PNG) <br> <br>
 ### Circular Double Linked List Creation 
 ![DS](/images/linked-list/3_1_1_CDLL_creation.PNG) <br>
 ```
@@ -256,7 +256,7 @@ insertNodeInDLL(head,nodeValue,position)
 **Traverse Backword** <br>
 ![DS](/images/linked-list/3_1_3_2_CDLL_traverse_reverse.PNG) <br> <br>
 ### Circular Double Linked List Search 
-![DS](/images/linked-list/3_0_3_DLL_search.PNG) <br> <br>
+![DS](/images/linked-list/3_1_3_4_CDLL_search.PNG) <br> <br>
 ### Circular Double Linked List Delete Node 
 **delete first node**<br>
 ![DS](/images/linked-list/3_0_7_1_DLL_delete-node-first.PNG) <br> <br>
