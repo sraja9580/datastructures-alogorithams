@@ -209,7 +209,7 @@ deleteNodeInDLL(head,position)
 ### Circular Double Linked List Time and Space Complexity Table 
 ![DS](/images/linked-list/3_0_6_DLL_time-space-complexity_table.PNG) <br> <br>
 ### Circular Double Linked List Creation 
-![DS](/images/linked-list/3_0_1_double_linked-list_creation.PNG) <br> <br>
+![DS](/images/linked-list/3_1_1_CDLL_creation) <br>
 ```
 createCDLL(nodeValue)
 	create new blank node(node)----O(1)
