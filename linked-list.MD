@@ -222,11 +222,11 @@ createCDLL(nodeValue)
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### Circular Double Linked List Insert 
 **Insert in postion 0**<br>
-![DS](/images/linked-list/3_0_4_1_DLL_insert-node-first.PNG) <br> <br>
+![DS](/images/linked-list/3_1_2_1_CDLL_insert-node-first.PNG) <br> <br>
 **Insert in last position**<br>
-![DS](/images/linked-list/3_0_4_2_DLL_insert-node-last.PNG) <br> <br>
+![DS](/images/linked-list/3_1_2_2_CDLL_insert-node-last.PNG) <br> <br>
 **Insert in any other position**<br>
-![DS](/images/linked-list/3_0_4_3_DLL_insert-node-n-position.PNG) <br> <br>
+![CDLL_insert-node-n-position](/images/linked-list/3_1_2_3_CDLL_insert-node-n-position.PNG) <br> <br>
 ```
 insertInCDLL(head,nodeValue,position)
 	create new blank node(node)------------------------------------O(1)
