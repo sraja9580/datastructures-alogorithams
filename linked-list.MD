@@ -264,11 +264,11 @@ insertInCDLL(head,nodeValue,position)
 ![DS](/images/linked-list/3_1_3_4_CDLL_search.PNG) <br> <br>
 ### Circular Double Linked List Delete Node 
 **delete first node**<br>
-![DS](/images/linked-list/3_0_7_1_DLL_delete-node-first.PNG) <br> <br>
+![DS](/images/linked-list/3_1_5_1_CDLL_delete-node-first.PNG) <br> <br>
 **delete last node**<br>
-![DS](/images/linked-list/3_0_7_2_DLL_delete-node-last.PNG) <br> <br>
+![DS](/images/linked-list/3_1_5_2_CDLL_delete-node-last.PNG) <br> <br>
 **delete any other node**<br>
-![DS](/images/linked-list/3_0_7_3_DLL_delete-node-n-position.PNG) <br>
+![DS](/images/linked-list/3_1_5_3_CDLL_delete-node-n-position.PNG) <br>
 `
 deleteNodeOfCDLL(head,position)
 	
