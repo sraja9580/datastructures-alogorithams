@@ -269,21 +269,24 @@ insertInCDLL(head,nodeValue,position)
 ![DS](/images/linked-list/3_0_7_2_DLL_delete-node-last.PNG) <br> <br>
 **delete any other node**<br>
 ![DS](/images/linked-list/3_0_7_3_DLL_delete-node-n-position.PNG) <br>
-```
-deleteNodeInDLL(head,position)	
-	if(position==0)-----------------------------O(1)
-		//if size==1 head=tail=null		
-		head=head.next--------------------------O(1)
-		head.prev=null--------------------------O(1)		
-	else if(pointing==last)---------------------O(1)
-		//if size==1 head=tail=null		
-		tail=tail.prev--------------------------O(1)
-		tail.next=null--------------------------O(1)
-	else (any other position)-------------------O(1)
-		loop:tempNode=node(position-1)----------O(n)
-		tempNode.next=tempNode.next.next--------O(1)
-		tempNode.next.prev=tempNode-------------O(1)	
-```
+`
+deleteNodeOfCDLL(head,position)
+	
+	if(position==0)------------------------------------------------O(1)
+		head=head.next-----------------------------------------O(1)
+		head.prev=tail-----------------------------------------O(1)
+		tail.next=head-----------------------------------------O(1)		
+	else if(pointing==last)
+		tail=tail.prev-----------------------------------------O(1)		
+		tail.next=head-----------------------------------------O(1)
+		head.prev=tail-----------------------------------------O(1)		
+	else (any other position)--------------------------------------O(1)
+		//getting previous node of the position
+		loop to position-1-------------------------------------O(n)
+		    tempNode=position-1-Node---------------------------O(1)
+		tempNode.next=tempNode.next.next-----------------------O(1)
+		tempNode.next.prev=tempNode----------------------------O(1)
+`
 **Time Complexity  -O(n)  Space Complexity -O(1)** <br> <br>
 ### Circular Double Linked List Delete Entire List 
 ![DS](/images/linked-list/3_1_6_1_CDLL_delete-entire-list.PNG) <br>
