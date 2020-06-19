@@ -281,4 +281,5 @@ deleteNodeInDLL(head,position)
 ```
 **Time Complexity  -O(n)  Space Complexity -O(1)** <br> <br>
 ### Circular Double Linked List Delete Entire List 
-![DS](/images/linked-list/3_0_5_DLL_delete-entire-list.PNG) <br> <br>
+![DS](/images/linked-list/3_1_6_1_CDLL_delete-entire-list.PNG) <br>
+![DS](/images/linked-list/3_1_6_2_CDLL_delete-entire-list.PNG) <br>
