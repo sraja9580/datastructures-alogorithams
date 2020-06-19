@@ -197,3 +197,88 @@ deleteNodeInDLL(head,position)
 ### Double Linked List Delete Entire List 
 ![DS](/images/linked-list/3_0_5_DLL_delete-entire-list.PNG) <br> <br>
 		
+## Circular Double Linked List
+* [Circular Double Linked List Time and Space Complexity Table](#circular-double-linked-list-time-and-space-complexity-table)
+* [Circular Double Linked List Creation](#circular-double-linked-list-creation)
+* [Circular Double Linked list Insert](#circular-double-linked-list-insert)
+* [Circular Double Linked List Traverse](#circular-double-linked-list-traverse)
+* [Circular Double Linked List Search](#circular-double-linked-list-search)
+* [Circular Double Linked List Delete Node](#circular-double-linked-list-delete-node)
+* [Circular Double Linked List Delete Entire List](#circular-double-linked-list-delete-entire-list)
+	
+### Circular Double Linked List Time and Space Complexity Table 
+![DS](/images/linked-list/3_0_6_DLL_time-space-complexity_table.PNG) <br> <br>
+### Circular Double Linked List Creation 
+![DS](/images/linked-list/3_0_1_double_linked-list_creation.PNG) <br> <br>
+```
+createCDLL(nodeValue)
+	create new blank node(node)----O(1)
+	node.value=nodeValue-----------O(1)
+	head=node----------------------O(1)
+	tail=node----------------------O(1)
+	node.next=node-----------------O(1)
+	node.prev=node-----------------O(1)
+```
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+### Circular Double Linked List Insert 
+**Insert in postion 0**<br>
+![DS](/images/linked-list/3_0_4_1_DLL_insert-node-first.PNG) <br> <br>
+**Insert in last position**<br>
+![DS](/images/linked-list/3_0_4_2_DLL_insert-node-last.PNG) <br> <br>
+**Insert in any other position**<br>
+![DS](/images/linked-list/3_0_4_3_DLL_insert-node-n-position.PNG) <br> <br>
+```
+insertNodeInDLL(head,nodeValue,position)
+	create new blank node(node)---------------------O(1)
+	node.value=nodeValue----------------------------O(1)
+	if(position==0)---------------------------------O(1)
+		node.next=head--------------------------O(1)
+		node.prev=null--------------------------O(1)
+		node.next.prev(head.prev)=node----------O(1)
+		head=node-------------------------------O(1)
+	else if(pointing==last)-------------------------O(1)
+		node.next=null--------------------------O(1)
+		node.prev=tail--------------------------O(1)
+		node.prev.next(tail.next)=node----------O(1)
+		tail=node-------------------------------O(1)
+	else (any other position)-----------------------O(1)
+		loop:tempNode=node(position-1)----------O(n)
+		node.prev=tempNode----------------------O(1)
+		node.next=tempNode.next-----------------O(1)
+		tempNode.next=node----------------------O(1)
+		node.next.prev=node---------------------O(1)
+```
+**Time Complexity  -O(n)  Space Complexity -O(1)** <br> <br>
+
+### Circular Double Linked List Traverse 
+**Traverse Forward** <br>
+![DS](/images/linked-list/3_0_2_1_DLL_traverse_forward.PNG) <br> <br>
+**Traverse Backword** <br>
+![DS](/images/linked-list/3_0_2_2_DLL_traverse_reverse.PNG) <br> <br>
+### Circular Double Linked List Search 
+![DS](/images/linked-list/3_0_3_DLL_search.PNG) <br> <br>
+### Circular Double Linked List Delete Node 
+**delete first node**<br>
+![DS](/images/linked-list/3_0_7_1_DLL_delete-node-first.PNG) <br> <br>
+**delete last node**<br>
+![DS](/images/linked-list/3_0_7_2_DLL_delete-node-last.PNG) <br> <br>
+**delete any other node**<br>
+![DS](/images/linked-list/3_0_7_3_DLL_delete-node-n-position.PNG) <br>
+```
+deleteNodeInDLL(head,position)	
+	if(position==0)-----------------------------O(1)
+		//if size==1 head=tail=null		
+		head=head.next--------------------------O(1)
+		head.prev=null--------------------------O(1)		
+	else if(pointing==last)---------------------O(1)
+		//if size==1 head=tail=null		
+		tail=tail.prev--------------------------O(1)
+		tail.next=null--------------------------O(1)
+	else (any other position)-------------------O(1)
+		loop:tempNode=node(position-1)----------O(n)
+		tempNode.next=tempNode.next.next--------O(1)
+		tempNode.next.prev=tempNode-------------O(1)	
+```
+**Time Complexity  -O(n)  Space Complexity -O(1)** <br> <br>
+### Circular Double Linked List Delete Entire List 
+![DS](/images/linked-list/3_0_5_DLL_delete-entire-list.PNG) <br> <br>
