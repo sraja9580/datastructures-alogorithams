@@ -5,8 +5,7 @@ As Stack is logical data structure it can be implemented using array or linked l
 ## Array Vs List implementation
 |DS         |Pros   |Cons |
 |---        |------ |-----|
-|Array      | 'Easy to implement' |'fixed size (or) even in the case of dynamic
-                                    array time complexity to increase the size is more'|
+|Array      | Easy to implement |`fixed size (or) even in the case of dynamic array time complexity to increase the size is more`|
 |Linked List|       |     |
 ## Operations
 * CreateStack()
