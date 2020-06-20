@@ -86,4 +86,67 @@ DeleteStack()
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 
+## Stack Implemenentation using Linked List
+### CreateStack
+**_Algorithm_**
+```
+//As we are using linked list size is dynamic
+CreateStack()
+  create blank linked list(ie just head) -- O(1)  
+```
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+### Push
+**_Algorithm_**
+```
+push(value)
+  if stack is full (ie topOfStack == array.size)-- O(1)
+    return error message-------------------------- O(1)
+  else
+    arry[topOfStack]= value ---------------------- O(1)
+    topOfStack=topOfStack+1  --------------------- O(1)
+```
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+### Pop
+**_Algorithm_**
+```
+pop()
+  if stack empty (ie topOfStack == -1) -- O(1)
+    return error message ---------------- O(1)
+  else
+    return arry[topOfStack] ------------- O(1)
+    topOfStack=topOfStack-1 ------------- O(1)
+```
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+### Peak
+  _In pop top element is removed after returning the value, but in peak top element is not removed,it will just return top element_
+**_Algorithm_**
+```
+peak()
+  if stack empty (ie head == null) -- O(1)
+    return error message ------------ O(1)
+  else
+    return head.value --------------- O(1)    
+```
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+### isEmpty
+**_Algorithm_**
+```
+isEmpty()
+  if stack empty (head==null) -- O(1)
+    return true--------- ---------------- O(1)
+  else
+    return false----------- ------------- O(1)   
+```
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+### ~~isFull~~
+_in the linked list implementation stack size dont have limitation,we can create as many nodes as possible if ram has memory_ 
+
+### DeleteStack
+**_Algorithm_**
+```
+DeleteStack()
+ head = null ------ O(1) 
+```
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+
 
