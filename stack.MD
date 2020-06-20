@@ -99,22 +99,22 @@ CreateStack()
 **_Algorithm_**
 ```
 push(value)
-  if stack is full (ie topOfStack == array.size)-- O(1)
-    return error message-------------------------- O(1)
-  else
-    arry[topOfStack]= value ---------------------- O(1)
-    topOfStack=topOfStack+1  --------------------- O(1)
+    create new node = newNode -- O(1)
+    newNode.value=value -------- O(1)
+    newNode.next=head ---------- O(1)
+    head=newNode --------------- O(1)    
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### Pop
 **_Algorithm_**
 ```
 pop()
-  if stack empty (ie topOfStack == -1) -- O(1)
-    return error message ---------------- O(1)
-  else
-    return arry[topOfStack] ------------- O(1)
-    topOfStack=topOfStack-1 ------------- O(1)
+   if stack empty (ie head == null) -- O(1)
+      return error message ----------- O(1)
+   else
+       tempNode = head --------- O(1)
+       head=head.next ---------- O(1)   
+       return tempNode.value --- O(1)    
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### Peak
@@ -139,7 +139,7 @@ isEmpty()
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### ~~isFull~~
-_in the linked list implementation stack size dont have limitation,we can create as many nodes as possible if ram has memory_ 
+_In the linked list implementation **stack size dont have limitation**,we can create as many nodes as possible if ram has memory.**Linked list implementation of stack dont have isFull mehtod as the size is dynamic_ 
 
 ### DeleteStack
 **_Algorithm_**
