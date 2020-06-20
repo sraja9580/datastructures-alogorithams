@@ -24,4 +24,15 @@ CreateStack(size)
   //topOfStack=-1 is current pos=-1 which means no element is pushed(**stack is empty**)
   topOfStack=-1              -- O(1)
 ```
-**Time Complexity  -O(1)  Space Complexity -O(1)** <br>
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+### CreateStack
+**Algorithm**
+```
+push(value)
+  if stack is full (ie topOfStack == array.size)-- O(1)
+    return error message-------------------------- O(1)
+  else
+    arry[topOfStack]= value ---------------------- O(1)
+    topOfStack=topOfStack-1  --------------------- O(1)
+```
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
