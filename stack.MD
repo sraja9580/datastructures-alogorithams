@@ -92,6 +92,9 @@ DeleteStack()
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 
 ## Stack Implemenentation using Linked List
+### Stack Implemenentation using  Linked List Time and Space complexity table
+![big-O-table](/images/logical-ds/stack/8_2_3_stack_linked-list_time-space-complexity-table.PNG) <br>
+
 ### CreateStack
 **_Algorithm_**
 ```
@@ -101,6 +104,7 @@ CreateStack()
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### Push
+![push](/images/logical-ds/stack/8_2_1_stack_linked-list_push.PNG) <br>
 **_Algorithm_**
 ```
 push(value)
@@ -111,6 +115,7 @@ push(value)
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### Pop
+![top](/images/logical-ds/stack/8_2_2_stack_linked-list_pop.PNG) <br>
 **_Algorithm_**
 ```
 pop()
