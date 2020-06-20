@@ -29,7 +29,7 @@ CreateStack(size)
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### Push
-![push](/images/logical-ds/stack/8_1_2_stack_array_pushPNG) <br>
+![push](/images/logical-ds/stack/8_1_2_stack_array_push.PNG) <br>
 **_Algorithm_**
 ```
 push(value)
