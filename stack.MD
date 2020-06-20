@@ -27,7 +27,7 @@ CreateStack(size)
   //topOfStack=-1 is current pos=-1 which means no element is pushed(**stack is empty**)
   topOfStack=-1              -- O(1)
 ```
-**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+**Time Complexity  -O(1)  Space Complexity -O(n)** <br> <br>
 ### Push
 ![push](/images/logical-ds/stack/8_1_2_stack_array_push.PNG) <br>
 **_Algorithm_**
