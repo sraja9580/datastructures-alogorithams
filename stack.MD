@@ -15,4 +15,13 @@ As Stack is logical data structure it can be implemented using array or linked l
 * isEmpty()
 * isFull()
 * DeleteStack()
-
+## Stack Implemenentation using array
+### CreateStack
+**Algorithm**
+`
+CreateStack(size)
+  create blank array of size -- O(1)
+  //topOfStack=-1 is current pos=-1 which means no element is pushed(**stack is empty**)
+  topOfStack=-1              -- O(1)
+`
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br>
