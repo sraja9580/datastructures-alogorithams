@@ -36,7 +36,7 @@ push(value)
     topOfStack=topOfStack+1  --------------------- O(1)
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
-### Push
+### Pop
 **Algorithm**
 ```
 pop()
@@ -56,6 +56,33 @@ peak()
     return error message ---------------- O(1)
   else
     return arry[topOfStack] ------------- O(1)    
+```
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+### isEmpty
+**Algorithm**
+```
+isEmpty()
+  if stack empty (ie topOfStack == -1) -- O(1)
+    return true--------- ---------------- O(1)
+  else
+    return false----------- ------------- O(1)   
+```
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+### isFull
+**Algorithm**
+```
+isFull()
+  if stack full (ie topOfStack == array.size) -- O(1)
+    return true -------------------------------- O(1)
+  else
+    return false ------------------------------- O(1)     
+```
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+### DeleteStack
+**Algorithm**
+```
+DeleteStack()
+ array = null ------ O(1) 
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 
