@@ -25,7 +25,7 @@ CreateStack(size)
   topOfStack=-1              -- O(1)
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
-### CreateStack
+### Push
 **Algorithm**
 ```
 push(value)
@@ -33,6 +33,30 @@ push(value)
     return error message-------------------------- O(1)
   else
     arry[topOfStack]= value ---------------------- O(1)
-    topOfStack=topOfStack-1  --------------------- O(1)
+    topOfStack=topOfStack+1  --------------------- O(1)
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+### Push
+**Algorithm**
+```
+pop()
+  if stack empty (ie topOfStack == -1) -- O(1)
+    return error message ---------------- O(1)
+  else
+    return arry[topOfStack] ------------- O(1)
+    topOfStack=topOfStack-1 ------------- O(1)
+```
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+### Peak
+  _In pop top element is removed after returning the value, but in peak top element is not removed,it will just return top element_
+**Algorithm**
+```
+peak()
+  if stack empty (ie topOfStack == -1) -- O(1)
+    return error message ---------------- O(1)
+  else
+    return arry[topOfStack] ------------- O(1)    
+```
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+
+
