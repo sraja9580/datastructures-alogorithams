@@ -17,7 +17,7 @@ As Stack is logical data structure it can be implemented using array or linked l
 * DeleteStack()
 ## Stack Implemenentation using array
 ### CreateStack
-**Algorithm**
+**_Algorithm_**
 ```
 CreateStack(size)
   create blank array of size -- O(1)
@@ -26,7 +26,7 @@ CreateStack(size)
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### Push
-**Algorithm**
+**_Algorithm_**
 ```
 push(value)
   if stack is full (ie topOfStack == array.size)-- O(1)
@@ -37,7 +37,7 @@ push(value)
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### Pop
-**Algorithm**
+**_Algorithm_**
 ```
 pop()
   if stack empty (ie topOfStack == -1) -- O(1)
@@ -49,7 +49,7 @@ pop()
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### Peak
   _In pop top element is removed after returning the value, but in peak top element is not removed,it will just return top element_
-**Algorithm**
+**_Algorithm_**
 ```
 peak()
   if stack empty (ie topOfStack == -1) -- O(1)
@@ -59,7 +59,7 @@ peak()
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### isEmpty
-**Algorithm**
+**_Algorithm_**
 ```
 isEmpty()
   if stack empty (ie topOfStack == -1) -- O(1)
@@ -69,7 +69,7 @@ isEmpty()
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### isFull
-**Algorithm**
+**_Algorithm_**
 ```
 isFull()
   if stack full (ie topOfStack == array.size) -- O(1)
@@ -79,7 +79,7 @@ isFull()
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### DeleteStack
-**Algorithm**
+**_Algorithm_**
 ```
 DeleteStack()
  array = null ------ O(1) 
