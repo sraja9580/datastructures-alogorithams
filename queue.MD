@@ -25,7 +25,7 @@ CreateQueue(queueSize)
 ```
 **Time Complexity  -O(1)  Space Complexity -O(n)** <br> <br>
 ### EnQueue
-  _addling value to queue_
+  _addling value to queue_<br>
 **_Algorithm_**
 ```
 EnQueue(value)
@@ -37,7 +37,7 @@ EnQueue(value)
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### DeQueue
-  _returning and removing last element_
+  _returning and removing last element_<br>
 **_Algorithm_**
 ```
 DeQueue()
@@ -56,7 +56,7 @@ DeQueue()
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### peekInQueue
-  _return first value,it is like peak in stack_
+  _return first value,it is like peak in stack_<br>
 **_Algorithm_**
 ```
 peekInQueue()
@@ -64,5 +64,32 @@ peekInQueue()
     return errorMessage ---------------------- O(1)
   else   
     return arr[beginingOfQueue] -------------- O(1)    
+```
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+### isEmpty 
+**_Algorithm_**
+```
+isEmpty()
+  if beginingOfQueue ==-1  -- O(1)
+    return true ------------- O(1)
+  else   
+    return false ------------ O(1)    
+```
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+### isFull 
+**_Algorithm_**
+```
+isFull()
+ if topOfqueue == arr.size-1  -- O(1)
+    return true ---------------- O(1)
+  else   
+    return false --------------- O(1)    
+```
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+### deleteQueue 
+**_Algorithm_**
+```
+deleteQueue()
+ arr=null
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
