@@ -16,7 +16,10 @@ As Stack is logical data structure it can be implemented using array or linked l
 * isFull()
 * DeleteStack()
 ## Stack Implemenentation using array
+### Stack Implemenentation using array Time and Space complexity table
+![big-O-table](/images/logical-ds/stack/8_1_4_stack_array_time-space-complexity-table.PNG) <br>
 ### CreateStack
+![stack create](/images/logical-ds/stack/8_1_1_create_stack_array.PNG) <br>
 **_Algorithm_**
 ```
 CreateStack(size)
@@ -26,6 +29,7 @@ CreateStack(size)
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### Push
+![push](/images/logical-ds/stack/8_1_2_stack_array_pushPNG) <br>
 **_Algorithm_**
 ```
 push(value)
@@ -37,6 +41,7 @@ push(value)
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### Pop
+![top](/images/logical-ds/stack/8_1_3_stack_array_pop.PNG) <br>
 **_Algorithm_**
 ```
 pop()
