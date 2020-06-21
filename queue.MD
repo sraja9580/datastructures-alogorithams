@@ -130,7 +130,7 @@ DeQueue()
 **_Algorithm_**
 ```
 isEmpty()
-  if beginingOfQueue ==-1  -- O(1)
+  if endPos ==-1  -- O(1)
     return true ------------- O(1)
   else   
     return false ------------ O(1)    
@@ -140,7 +140,7 @@ isEmpty()
 **_Algorithm_**
 ```
 isFull()
- if topOfqueue == arr.size-1  -- O(1)
+ if endPos+1 == startPos-------- O(1)
     return true ---------------- O(1)
   else   
     return false --------------- O(1)    
