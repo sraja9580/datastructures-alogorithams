@@ -15,6 +15,8 @@
   * Linked List implementation
   
 ## Queue -Linear Array
+### Time and Space complexity table
+![time-space](/images/logical-ds/queue/1_4_array_linear_queue_time-and-space_complexity) <br>
 ### CreateQueue
 ![create](/images/logical-ds/queue/1_1_array_linear_cereate-queue.PNG) <br>
 **_Algorithm_**
