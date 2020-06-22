@@ -16,6 +16,7 @@
   
 ## Queue -Linear Array
 ### CreateQueue
+![create](/images/logical-ds/queue/1_1_array_linear_cereate-queue.PNG) <br>
 **_Algorithm_**
 ```
 CreateQueue(queueSize)
@@ -26,6 +27,7 @@ CreateQueue(queueSize)
 **Time Complexity  -O(1)  Space Complexity -O(n)** <br> <br>
 ### EnQueue
   _addling value to queue_<br>
+![enqueue](/images/logical-ds/queue/1_2_array_linear_enque.PNG) <br>
 **_Algorithm_**
 ```
 EnQueue(value)
@@ -38,6 +40,7 @@ EnQueue(value)
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### DeQueue
   _returning and removing last element_<br>
+![dequeue](/images/logical-ds/queue/1_3_array_linear_deque.PNG) <br>
 **_Algorithm_**
 ```
 DeQueue()
