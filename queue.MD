@@ -104,11 +104,20 @@ deleteQueue()
 **_Algorithm_**
 ```
 EnQueue(value)
-  if queue==full (ie topOfqueue == arr.size-1) -- O(1)
-    return errorMessage ------------------------- O(1)
-  else   ---------------------------------------- O(1)
-    arr[topOfqueue+1]=value --------------------- O(1)
-    topOfqueue=topOfqueue+1 --------------------- O(1)
+  if queue==full(call isFull method) ---- O(1)
+    return errorMessage ----------------- O(1)
+  else   -------------------------------- O(1)
+    
+    if queue=empty(call isEmpty mehtod) - O(1)
+      start=0 ---------------------- ---- O(1)
+      end=0 ----------------------------- O(1)
+    else if end=arr.lenth-1 ------------- O(1)
+      end=0 ----------------------------- O(1)
+    else -------------------------------- O(1)
+      end=end+1 ------------------------- O(1)
+	
+	//Assigning value
+  arr[end]=value ------------------------ O(1)
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### DeQueue
