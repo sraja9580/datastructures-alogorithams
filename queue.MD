@@ -16,7 +16,7 @@
   
 ## Queue -Linear Array
 ### Time and Space complexity table
-![time-space](/images/logical-ds/queue/1_4_array_linear_queue_time-and-space_complexity) <br>
+![time-complexity-table](/images/logical-ds/queue/1_4_array_linear_queue_time-and-space_complexity.PNG) <br>
 ### CreateQueue
 ![create](/images/logical-ds/queue/1_1_array_linear_cereate-queue.PNG) <br>
 **_Algorithm_**
@@ -101,6 +101,7 @@ deleteQueue()
 ## Queue -Circular array
 ### EnQueue
   _addling value to queue_<br>
+ ![DS](/images/logical-ds/queue/2_1_array-circular_enque.PNG) <br>
 **_Algorithm_**
 ```
 EnQueue(value)
@@ -122,6 +123,7 @@ EnQueue(value)
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### DeQueue
   _returning and removing last element_<br>
+ ![DS](/images/logical-ds/queue/2_2_array-circular_deque.PNG) <br>
 **_Algorithm_**
 ```
 DeQueue()
