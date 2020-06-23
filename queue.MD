@@ -125,18 +125,20 @@ EnQueue(value)
 **_Algorithm_**
 ```
 DeQueue()
-  if queue==empty (ie beginingOfQueue ==-1) -- O(1)
-    return errorMessage ---------------------- O(1)
-  else   
-    tempVal=arr[beginingOfQueue] ------------- O(1)
-    beginingOfQueue=beginingOfQueue+1 -------- O(1)
-    
-    //Last value dequeued,then we can reset
-    if(beginingOfQueue>topOfqueue) ----------- O(1)
-      beginingOfQueue=-1 --------------------- O(1)
-      topOfqueue=-1 -------------------------- O(1)  
-      
-     return tempVal ------------------------- O(1)
+  if queue==empty(call isEmpty method) -- O(1)
+    return errorMessage ----------------- O(1)
+  else   -------------------------------- O(1)
+	tempVal=arr[start] -------------- O(1)	
+	//queue has just 1 value
+	if start==end ------------------- O(1)	
+		start=end=-1 ------------ O(1)	
+	//dequeue last index value
+	else if start=arr.lenth-1 ------- O(1)
+		start=0 ----------------- O(1)
+	else ---------------------------- O(1)
+		start=start+1 ----------- O(1)	
+	//Assigning value
+    	return tempVal------------------- O(1)	
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 
@@ -144,7 +146,7 @@ DeQueue()
 **_Algorithm_**
 ```
 isEmpty()
-  if endPos ==-1  -- O(1)
+  if start ==-1  -- O(1)
     return true ------------- O(1)
   else   
     return false ------------ O(1)    
