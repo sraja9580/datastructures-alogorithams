@@ -174,7 +174,6 @@ isFull()
 ### Time and Space complexity table
 ![time-complexity-table](/images/logical-ds/queue/3_linked-list_linear_queue_time-and-space_complexity.PNG) <br>
 ### CreateQueue
-![create](/images/logical-ds/queue/1_1_array_linear_cereate-queue.PNG) <br>
 **_Algorithm_**
 ```
 CreateQueue()
@@ -185,7 +184,7 @@ CreateQueue()
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### EnQueue
   _addling value to queue_<br>
-![enqueue](/images/logical-ds/queue/1_2_array_linear_enque.PNG) <br>
+![enqueue](/images/logical-ds/queue/3_1_linked-list_enque.PNG) <br>
 **_Algorithm_**
 ```
 EnQueue(value)
@@ -201,7 +200,7 @@ EnQueue(value)
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### DeQueue
   _returning and removing last element_<br>
-![dequeue](/images/logical-ds/queue/1_3_array_linear_deque.PNG) <br>
+![dequeue](/images/logical-ds/queue/3_2_linked-list_deque.PNG) <br>
 **_Algorithm_**
 ```
 DeQueue()
