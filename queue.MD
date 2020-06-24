@@ -14,6 +14,8 @@
     * Circular Queue
   * Linked List implementation
   
+  **Queue: Array-Vs-Linked List Implementation**
+  ![DS](/images/logical-ds/queue/Queue_array-vs-linkedlist.PNG) <br> <br>
 ## Queue -Linear Array
 ### Time and Space complexity table
 ![time-complexity-table](/images/logical-ds/queue/1_4_array_linear_queue_time-and-space_complexity.PNG) <br>
