@@ -99,6 +99,8 @@ deleteQueue()
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ## Queue -Circular array
+### Time and Space complexity table
+![DS](/images/logical-ds/queue/2_3_array_circular_queue_time-and-space_complexity.PNG) <br> <br>
 ### EnQueue
   _addling value to queue_<br>
  ![DS](/images/logical-ds/queue/2_1_array-circular_enque.PNG) <br>
@@ -155,6 +157,7 @@ isEmpty()
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### isFull 
+![DS](/images/logical-ds/queue/2_3_array-circular_isFull.PNG) <br> 
 **_Algorithm_**
 ```
 isFull()
