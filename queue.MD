@@ -14,8 +14,8 @@
     * Circular Queue
   * Linked List implementation
   
-  **Queue: Array-Vs-Linked List Implementation**
-  ![DS](/images/logical-ds/queue/Queue_array-vs-linkedlist.PNG) <br> <br>
+**Queue: Array-Vs-Linked List Implementation**
+![DS](/images/logical-ds/queue/Queue_array-vs-linkedlist.PNG) <br> <br>
 ## Queue -Linear Array
 ### Time and Space complexity table
 ![time-complexity-table](/images/logical-ds/queue/1_4_array_linear_queue_time-and-space_complexity.PNG) <br>
@@ -171,5 +171,78 @@ isFull()
  return isFull ------------------------- O(1)
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+## Queue -Linear (Linked List)
+### Time and Space complexity table
+![time-complexity-table](/images/logical-ds/queue/3_linked-list_linear_queue_time-and-space_complexity.PNG) <br>
+### CreateQueue
+![create](/images/logical-ds/queue/1_1_array_linear_cereate-queue.PNG) <br>
+**_Algorithm_**
+```
+CreateQueue()
+  create blank linked list - O(1)
+  head= null --------------- O(1)
+  tail= null --------------- O(1)
+```
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+### EnQueue
+  _addling value to queue_<br>
+![enqueue](/images/logical-ds/queue/1_2_array_linear_enque.PNG) <br>
+**_Algorithm_**
+```
+EnQueue(value)
+  if queue==full (ie topOfqueue == arr.size-1) -- O(1)
+    return errorMessage ------------------------- O(1)
+  else   ---------------------------------------- O(1)
+    arr[topOfqueue+1]=value --------------------- O(1)
+    topOfqueue=topOfqueue+1 --------------------- O(1)
+```
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+### DeQueue
+  _returning and removing last element_<br>
+![dequeue](/images/logical-ds/queue/1_3_array_linear_deque.PNG) <br>
+**_Algorithm_**
+```
+DeQueue()
+  if queue==empty (ie beginingOfQueue ==-1) -- O(1)
+    return errorMessage ---------------------- O(1)
+  else   
+    tempVal=arr[beginingOfQueue] ------------- O(1)
+    beginingOfQueue=beginingOfQueue+1 -------- O(1)
+    
+    //Last value dequeued,then we can reset
+    if(beginingOfQueue>topOfqueue) ----------- O(1)
+      beginingOfQueue=-1 --------------------- O(1)
+      topOfqueue=-1 -------------------------- O(1)  
+      
+     return tempVal ------------------------- O(1)
+```
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+### peekInQueue
+  _return first value,it is like peak in stack_<br>
+**_Algorithm_**
+```
+peekInQueue()  
+    return head.value -- O(1)    
+```
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+### isEmpty 
+**_Algorithm_**
+```
+isEmpty()
+  if head ==null  -- O(1)
+    return true  --- O(1)
+  else   
+    return false --- O(1)    
+```
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+### isFull 
 
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
+### deleteQueue 
+**_Algorithm_**
+```
+deleteQueue()
+ head=tail=null
+```
+**Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 
