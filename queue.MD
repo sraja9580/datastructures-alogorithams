@@ -205,18 +205,16 @@ EnQueue(value)
 **_Algorithm_**
 ```
 DeQueue()
-  if queue==empty (ie beginingOfQueue ==-1) -- O(1)
-    return errorMessage ---------------------- O(1)
-  else   
-    tempVal=arr[beginingOfQueue] ------------- O(1)
-    beginingOfQueue=beginingOfQueue+1 -------- O(1)
-    
-    //Last value dequeued,then we can reset
-    if(beginingOfQueue>topOfqueue) ----------- O(1)
-      beginingOfQueue=-1 --------------------- O(1)
-      topOfqueue=-1 -------------------------- O(1)  
-      
-     return tempVal ------------------------- O(1)
+  if queue==empty (call isEmpty method) --------------- O(1)
+    return errorMessage ------------------------------- O(1)
+  else     
+   	tempNode = head ------------------------------- O(1)	
+	if queue has just 1 node(ie head.next=null) --- O(1)
+		head=null ----------------------------- O(1)
+		tail=null ----------------------------- O(1)
+	else ------------------------------------------ O(1)
+		head=head.next ------------------------ O(1)
+    	return tempNode.value ------------------------- O(1)
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### peekInQueue
