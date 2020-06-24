@@ -148,7 +148,7 @@ DeQueue()
 **_Algorithm_**
 ```
 isEmpty()
-  if start ==-1  -- O(1)
+  if start ==-1  ------------ O(1)
     return true ------------- O(1)
   else   
     return false ------------ O(1)    
@@ -158,10 +158,12 @@ isEmpty()
 **_Algorithm_**
 ```
 isFull()
- if endPos+1 == startPos-------- O(1)
-    return true ---------------- O(1)
-  else   
-    return false --------------- O(1)    
+ isFull = false ------------------------ O(1)
+ if endPos+1 == startPos --------------- O(1)
+    isFull = true ---------------------- O(1)
+ else if (start=0 and end=arr.size-1) -- O(1)
+    isFull = true ---------------------- O(1) 
+ return isFull ------------------------- O(1)
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 
