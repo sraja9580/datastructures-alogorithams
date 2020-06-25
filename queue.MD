@@ -43,7 +43,7 @@ EnQueue(value)
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### DeQueue
-  _returning and removing last element_<br>
+  _returning and removing first element_<br>
 ![dequeue](/images/logical-ds/queue/1_3_array_linear_deque.PNG) <br>
 **_Algorithm_**
 ```
@@ -126,7 +126,7 @@ EnQueue(value)
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### DeQueue
-  _returning and removing last element_<br>
+  _returning and removing first element_<br>
  ![DS](/images/logical-ds/queue/2_2_array-circular_deque.PNG) <br>
 **_Algorithm_**
 ```
@@ -200,7 +200,7 @@ EnQueue(value)
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### DeQueue
-  _returning and removing last element_<br>
+  _returning and removing first element_<br>
 ![dequeue](/images/logical-ds/queue/3_2_linked-list_deque.PNG) <br>
 **_Algorithm_**
 ```
