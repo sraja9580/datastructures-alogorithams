@@ -44,8 +44,21 @@
  Successor of the node is the immediate next node in inorder traversal of a binary tree.<br> 
 ![successor](/images/logical-ds/binary-tree/1_11_tree-teriminologies_successor.PNG) <br>
 
+## What is Binary Tree
+* Tree in which each node can have up to two children(0 or 1 or 2),but not more than two.
+* BST,Heap Tree,AVL are type of binary tree
+![binary-tree](/images/logical-ds/binary-tree/binary-tree.PNG) <br>
 
-	
+## Why is Binary Tree
+* Prerequisite for more advanced trees(BST,AVL,Red-Black)
+* Is used in solving problems like
+	* Huffman coding
+	* Heap(Priority queue)
+	* Expression parsing
+## Types of Binary Tree
+![binary-tree_types](/images/logical-ds/binary-tree/binary-tree_types.PNG) <br>
+
+
 		
 	
 	
