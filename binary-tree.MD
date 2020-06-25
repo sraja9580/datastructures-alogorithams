@@ -15,7 +15,9 @@
 * [Hight of Tree](#hight-of-tree)	
 * [Depth of Tree](#depth-of-tree)		
 * [Predecessor](#predecessor)		
-* [Successor](#successor)
+* [Successor](#successor)<br>
+![root_edge_leaf_sibilings_ancester](/images/logical-ds/binary-tree/1_tree-teriminologies_root_edge_leaf_sibilings_ancester.PNG) <br>
+![height_depth](/images/logical-ds/binary-tree/1_tree-teriminologies_height_depth.PNG) <br>
 
 ## Root
  Node with no parents<br> 
