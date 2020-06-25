@@ -235,7 +235,8 @@ isEmpty()
     return false --- O(1)    
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
-### isFull 
+### ~~isFull~~
+_In the linked list implementation **Queue size dont have limitation**,we can create as many nodes as possible if ram has memory.**Linked list implementation of QUEUE dont have isFull mehtod as the size is dynamic_ 
 
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
 ### deleteQueue 
