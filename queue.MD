@@ -12,7 +12,7 @@
   * Array Implementation
     * [Linear Queue](#queue--linear-array)
     * [Circular Queue](#queue--circular-array)
-  * [Linked List implementation](#queue--linear-(linked-list))
+  * [Linked List implementation](#queue-linear-(linked-list))
   
 **Queue: Array-Vs-Linked List Implementation** <br>
 ![DS](/images/logical-ds/queue/Queue_array-vs-linkedlist.PNG) <br> <br>
