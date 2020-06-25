@@ -12,7 +12,7 @@
   * Array Implementation
     * [Linear Queue](#queue--linear-array)
     * [Circular Queue](#queue--circular-array)
-  * [Linked List implementation](#queue-linear-(linked-list))
+  * [Linked List implementation](#queue-linear-linked-list)
   
 **Queue: Array-Vs-Linked List Implementation** <br>
 ![DS](/images/logical-ds/queue/Queue_array-vs-linkedlist.PNG) <br> <br>
@@ -171,7 +171,7 @@ isFull()
  return isFull ------------------------- O(1)
 ```
 **Time Complexity  -O(1)  Space Complexity -O(1)** <br> <br>
-## Queue -Linear (Linked List)
+## Queue Linear Linked List
 ### Time and Space complexity table
 ![time-complexity-table](/images/logical-ds/queue/3_linked-list_linear_queue_time-and-space_complexity.PNG) <br>
 ### CreateQueue
