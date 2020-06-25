@@ -37,8 +37,10 @@
  Same as Depth of root node which will be always 0<br> 
 ## Predecessor
  Predecessor of the node is the immediate previous node in inorder traversal of a binary tree.<br> 
+![predecessor](/images/logical-ds/binary-tree/1_10_tree-teriminologies_predecessor.PNG) <br>
 ## Successor
  Successor of the node is the immediate next node in inorder traversal of a binary tree.<br> 
+![successor](/images/logical-ds/binary-tree/1_11_tree-teriminologies_successor.PNG) <br>
 
 
 	
