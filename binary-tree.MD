@@ -46,7 +46,7 @@
 
 ## What is Binary Tree
 * Tree in which each node can have up to two children(0 or 1 or 2),but not more than two.
-* BST,Heap Tree,AVL are type of binary tree
+* BST,Heap Tree,AVL are type of binary tree <br>
 ![binary-tree](/images/logical-ds/binary-tree/binary-tree.PNG) <br>
 
 ## Why is Binary Tree
