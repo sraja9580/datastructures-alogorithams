@@ -61,12 +61,15 @@
 * [Deletion of Tree](#)
 
 ## Preorder Traversal
+ _Tree is traversed in root->left->right order_<br>
 ![preorder-traversal](/images/logical-ds/binary-tree/2_1_1_binary-tree_preorder-traversal.PNG) <br>
 ![preorder-traversal](/images/logical-ds/binary-tree/2_1_2_binary-tree_preorder-traversal-algo.PNG) <br>
 ## Inorder Traversal
+ _Tree is traversed in left->root->right order_<br>
 ![inorder-traversal](/images/logical-ds/binary-tree/2_2_1_binary-tree_inorder-traversal.PNG) <br>
 ![inorder-traversal](/images/logical-ds/binary-tree/2_2_2_binary-tree_inorder-traversal-algo.PNG) <br>
 ## Postorder Traversal
+ _Tree is traversed in left->righ->troot order_<br>
 ![postorder-traversal](/images/logical-ds/binary-tree/2_3_1_binary-tree_postorder-traversal.PNG) <br>
 ![postorder-traversal](/images/logical-ds/binary-tree/2_3_2_binary-tree_postorder-traversal_algo.PNG) <br>
 ## Level Order Traversal
