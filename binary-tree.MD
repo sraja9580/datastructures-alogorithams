@@ -5,30 +5,30 @@
 	* It has a root node and 2 disjoint binary tree called Left subtree and Right subtree
 
 ## Tree Terminologies
-* [Root]<br> 
+* [Root](#)<br> 
 	Node with no parents<br> 
-* [Edge]<br>
+* [Edge](#)<br> 
 	Link from parent to child <br> 
-* [Leaf]<br>
+* [Leaf](#)<br> 
 	Node with no children <br>
-* [Sibling]<br>	
+* [Sibling](#)<br> 	
 	Children of same parent<br> 
-* [Ancestor]<br>
+* [Ancestor](#)<br> 
 	 means parent,grant-parent,great grant-parent, and so on for the given node<br> 	
 	![root_edge_leaf_sibilings_ancester](/images/logical-ds/binary-tree/1_tree-teriminologies_root_edge_leaf_sibilings_ancester.PNG) <br>
-* [Depth of Node]<br>
+* [Depth of Node](#)<br> 
 	Length of path from root node(ie no of edges)<br>
-* [Hight of Node]<br>
+* [Hight of Node](#)<br> 
 	 Length of path from node to the deepest node<br>
-* [Hight of Tree]<br>
+* [Hight of Tree](#)<br> 
 	Same as hight of root node <br> 
-* [Depth of Tree]<br>
+* [Depth of Tree](#)<br> 
 	 Same as Depth of root node which will be always 0<br> 
 	![height_depth](/images/logical-ds/binary-tree/1_tree-teriminologies_height_depth.PNG) <br>
-* [Predecessor]<br>
+* [Predecessor](#)<br> 
 	Predecessor of the node is the immediate previous node in inorder traversal of a binary tree.<br> 
 	![predecessor](/images/logical-ds/binary-tree/1_10_tree-teriminologies_predecessor.PNG) <br>
-* [Successor]<br>
+* [Successor](#)<br> 
 	Successor of the node is the immediate next node in inorder traversal of a binary tree.<br> 
 	![successor](/images/logical-ds/binary-tree/1_11_tree-teriminologies_successor.PNG) <br>
 
