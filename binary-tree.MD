@@ -76,6 +76,12 @@
 ![levelorder-traversal](/images/logical-ds/binary-tree/2_4_1_binary-tree_levelorder-traversal.PNG) <br>
 ![levelorder-traversal](/images/logical-ds/binary-tree/2_4_2_binary-tree_levelorder-traversal_1.PNG) <br>
 ![levelorder-traversal](/images/logical-ds/binary-tree/2_4_3_binary-tree_levelorder-traversal_algo.PNG) <br>
+## Search
+**_Algorithm_**
+```
+
+
+```
 
 		
 	
