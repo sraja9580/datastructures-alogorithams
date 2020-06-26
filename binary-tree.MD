@@ -51,22 +51,25 @@
 * [Insertion of Node]
 * [Deletion of Node]
 * [Traverse all nodes](#)
-        * Depth First
+        * [Depth First](#)
 		* [Preorder Traversal](#preorder-traversal)
-		* Inorder Traversal
-		* Postorder Traversal
-	* Breadh First
-		* Level Order Traversal
+		* [Inorder Traversal](#inorder-traversal)
+		* [Postorder Traversal](#postorder-traversal)
+	* [Breadh First](#)
+		* [Level Order Traversal](#level-order-traversal)
 * [Search]
 * [Deletion of Tree](#)
 
 ## Preorder Traversal
 ![preorder-traversal](/images/logical-ds/binary-tree/2_1_1_binary-tree_preorder-traversal.PNG) <br>
 ![preorder-traversal](/images/logical-ds/binary-tree/2_1_2_binary-tree_preorder-traversal-algo.PNG) <br>
+## Inorder Traversal
 ![inorder-traversal](/images/logical-ds/binary-tree/2_2_1_binary-tree_inorder-traversal.PNG) <br>
 ![inorder-traversal](/images/logical-ds/binary-tree/2_2_2_binary-tree_inorder-traversal-algo.PNG) <br>
+## Postorder Traversal
 ![postorder-traversal](/images/logical-ds/binary-tree/2_3_1_binary-tree_postorder-traversal.PNG) <br>
 ![postorder-traversal](/images/logical-ds/binary-tree/2_3_2_binary-tree_postorder-traversal_algo.PNG) <br>
+## Level Order Traversal
 ![levelorder-traversal](/images/logical-ds/binary-tree/2_4_1_binary-tree_levelorder-traversal.PNG) <br>
 ![levelorder-traversal](/images/logical-ds/binary-tree/2_4_2_binary-tree_levelorder-traversal_1.PNG) <br>
 ![levelorder-traversal](/images/logical-ds/binary-tree/2_4_3_binary-tree_levelorder-traversal_algo.PNG) <br>
