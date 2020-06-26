@@ -48,7 +48,7 @@
 
 ## Operations on Binary Tree
 * [Creation of Tree](#)
-* [Insertion of Node](#)
+* [Insertion of Node](#insertion-of-node)
 * [Deletion of Node](#)
 * [Traverse all nodes](#)
 	* [Depth First](#)
@@ -97,7 +97,36 @@ else --------------------------------------------------------- O(1)
 	return value not found ------------------------------- O(1)
 ```
 _**Time Complexity  -O(n)  Space Complexity -O(n)**_ <br> <br>
-
-		
+## Insertion of Node
+_It it better to use **Level Order Travers** for any operation in a tree because it uses **queue**,other 3 Depth first travese methods uses stack_<br>
+![search](/images/logical-ds/binary-tree/4_1_binary-tree_INSERT_level_order.PNG) <br>
+![search](/images/logical-ds/binary-tree/4_2_binary-tree_INSERT_level_order.PNG) <br>
+**_Algorithm_**
+```
+//insert the value in first vacant child position	
+insertValue(value)
+if root == null ----------------------------------------- O(1)
+	//ie Head of Linked List
+	insert newNode at root -------------------------- O(1)
+else
+	//Level order traversal start
+	create new queue -------------------------------- O(1)
+	enqueue(root) ----------------------------------- O(1)
+	while(queue!=empty) ----------------------------- O(n)			
+		if(left-child!=null) -------------------- O(1)
+			enqueue(left-child) ------------- O(1)
+		else
+			insert new node as left child --- O(1)
+			break --------------------------- O(1)
+		if(right-child!=null) ------------------- O(1)
+			enqueue(right-child) ------------ O(1)
+		else
+			insert new node as right child -- O(1)
+			break --------------------------- O(1)	
+		//removing already processed node
+		dequeue --------------------------------- O(1) 
+	//Level order traversal end
+```
+_**Time Complexity  -O(n)  Space Complexity -O(n)**_ <br> <br>
 	
 	
