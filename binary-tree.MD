@@ -5,7 +5,8 @@
 	* It has a root node and 2 disjoint binary tree called Left subtree and Right subtree
 
 ## Tree Terminologies
-* [Root](#root)		
+* [Root](#root)	
+	Node with no parents<br> 
 * [Edge](#edge)				
 * [Leaf](#leaf)		
 * [Sibling](#sibling)		
