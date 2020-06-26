@@ -57,7 +57,7 @@
 		* [Postorder Traversal](#postorder-traversal)
 	* [Breadh First](#)
 		* [Level Order Traversal](#level-order-traversal)
-* [Search](#)
+* [Search](#search)
 * [Deletion of Tree](#)
 
 ## Preorder Traversal
@@ -96,7 +96,7 @@ else --------------------------------------------------------- O(1)
 	//Level order traverse end --------------------------- O(1)
 	return value not found ------------------------------- O(1)
 ```
-_**Time Complexity  -O(n)  Space Complexity -O(1)**_ <br> <br>
+_**Time Complexity  -O(n)  Space Complexity -O(n)**_ <br> <br>
 
 		
 	
