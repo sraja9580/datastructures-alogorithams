@@ -48,16 +48,16 @@
 
 ## Operations on Binary Tree
 * [Creation of Tree](#)
-* [Insertion of Node]
-* [Deletion of Node]
+* [Insertion of Node](#)
+* [Deletion of Node](#)
 * [Traverse all nodes](#)
-        * [Depth First](#)
+	* [Depth First](#)
 		* [Preorder Traversal](#preorder-traversal)
 		* [Inorder Traversal](#inorder-traversal)
 		* [Postorder Traversal](#postorder-traversal)
 	* [Breadh First](#)
 		* [Level Order Traversal](#level-order-traversal)
-* [Search]
+* [Search](#)
 * [Deletion of Tree](#)
 
 ## Preorder Traversal
