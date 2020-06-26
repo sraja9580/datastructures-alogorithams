@@ -77,11 +77,26 @@
 ![levelorder-traversal](/images/logical-ds/binary-tree/2_4_2_binary-tree_levelorder-traversal_1.PNG) <br>
 ![levelorder-traversal](/images/logical-ds/binary-tree/2_4_3_binary-tree_levelorder-traversal_algo.PNG) <br>
 ## Search
+_It it better to use **Level Order Travers** for any operation in a tree because it uses **queue**,other 3 Depth first travese methods uses stack_<br>
+![search](/images/logical-ds/binary-tree/3_binary-tree_search_level_order.PNG) <br>
 **_Algorithm_**
 ```
-
-
+search(value)
+if root == null ---------------------------------------------- O(1)
+	return errorMessage ---------------------------------- O(1)
+else --------------------------------------------------------- O(1)
+	//Level order traverse start ------------------------- O(1)
+	create queue ----------------------------------------- O(1)
+	enqueue root ----------------------------------------- O(1)
+	while(queue!=empty) ---------------------------------- O(n)
+		enqueue the child of first element in queue -- O(1)
+		currentVal=dequeue --------------------------- O(1)
+		if(currentVal==value) ------------------------ O(1)
+			return success ----------------------- O(1)
+	//Level order traverse end --------------------------- O(1)
+	return value not found ------------------------------- O(1)
 ```
+_**Time Complexity  -O(n)  Space Complexity -O(1)**_ <br> <br>
 
 		
 	
